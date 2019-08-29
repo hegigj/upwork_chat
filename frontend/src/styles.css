@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+mat-sidenav{
+  width: 280px;
+  height: 100vh;
+}
+mat-sidenav-content{
+  width: calc(100% - 280px);
+  height: 100vh!important;
+}
+.spacer{
+  flex: 1 1 auto;
+}

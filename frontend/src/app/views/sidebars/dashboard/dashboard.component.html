@@ -1,0 +1,30 @@
+<div class="fluid-container dashboard">
+  <br>
+  <div class="row user">
+    <div class="col" style="display: flex;flex-direction: row;align-items: center">
+      <ngx-avatar [name]="user?.firstName + ' ' + user?.lastName"
+                  [src]="user?.avatarSrc"
+                  bgColor="#FFFFFF"
+                  fgColor="#2C3E50"
+                  [size]="40"></ngx-avatar>
+      <span style="margin-left: 10px">{{user?.firstName}} {{user?.lastName}}</span>
+    </div>
+    <div class="col" style="max-width: fit-content">
+      <button mat-icon-button>
+        <mat-icon>settings_applications</mat-icon>
+      </button>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col" style="font-family: 'Roboto Medium';font-size: 16px">Channels</div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col" style="font-family: 'Roboto Medium';font-size: 16px">Groups</div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col" style="font-family: 'Roboto Medium';font-size: 16px">Directs</div>
+  </div>
+</div>

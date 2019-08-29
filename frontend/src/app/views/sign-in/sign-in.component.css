@@ -1,0 +1,32 @@
+.sign-in-background{
+  background: linear-gradient(to bottom, #148F77 50%, #F4F6F7 50%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in{
+  width: 450px;
+  height: 550px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+  background-color: #F4F6F7;
+  font-family: Roboto;
+  color: #148F77;
+}
+
+.sign-in .row{
+  margin: 0;
+}
+
+.selected-tab{
+  border-bottom: 4px solid;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.sign-in .col mat-form-field{
+  width: 100%;
+}

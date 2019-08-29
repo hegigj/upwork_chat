@@ -1,0 +1,18 @@
+.dashboard{
+  background-color: #2C3E50;
+  height: 100%;
+  color: white;
+}
+
+.dashboard .row{
+  margin: 0;
+}
+
+.user{
+  font-family: "Roboto Medium";
+  font-size: 16px;
+}
+
+.user /deep/ .avatar-content{
+  border-radius: 4px!important;
+}
